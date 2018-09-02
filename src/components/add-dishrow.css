@@ -1,0 +1,14 @@
+.chooseDish_namecell {
+  width: 200px;
+  color: #ccc;
+}
+
+.chooseDish_cell {
+  width: 100px;
+  color: #ccc;
+}
+
+.dish_select:hover td {
+  background: rgb(31, 32, 32);
+  color: rgb(230, 230, 230);
+}

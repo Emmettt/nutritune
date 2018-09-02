@@ -1,0 +1,20 @@
+.totalsname {
+  width: 180px;
+}
+
+#row1 td {
+  background: rgb(45, 45, 45);
+  border-top: 2px solid red;
+}
+
+#row2 td {
+  background: rgb(55, 55, 55);
+}
+
+#row3 td {
+  background: rgb(75, 75, 75);
+}
+
+#row4 td {
+  background: rgb(100, 100, 100);
+}

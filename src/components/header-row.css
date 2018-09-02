@@ -1,0 +1,8 @@
+.heading {
+  font-style: italic;
+}
+
+.dishname {
+  width: 180px;
+  cursor: pointer;
+}

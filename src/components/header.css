@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Architect;
+  src: url(../fonts/ArchitectsDaughter-Regular.ttf);
+}
+@font-face {
+  font-family: GochiHand;
+  src: url(../fonts/GochiHand-Regular.ttf);
+}
+@font-face {
+  font-family: Algereya;
+  src: url(../fonts/AlegreyaSans-Regular.ttf);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid wheat;
+  margin-bottom: 30px;
+}
+
+.nutri {
+  font-family: GochiHand;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+    0 0 20px rgb(51, 165, 6), 0 0 30px rgb(51, 165, 6), 0 0 40px rgb(51, 165, 6),
+    0 0 50px rgb(51, 165, 6), 0 0 75px rgb(51, 165, 6);
+}
+.tune {
+  font-family: GochiHand;
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+    0 0 20px rgb(51, 165, 6), 0 0 30px rgb(51, 165, 6), 0 0 40px rgb(51, 165, 6),
+    0 0 50px rgb(51, 165, 6), 0 0 75px rgb(51, 165, 6);
+  letter-spacing: 5px;
+  /*font: 80px 'MisoRegular';*/
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Algereya;
+  font-size: 1.1em;
+  list-style: none;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.auth {
+  font-family: Algereya;
+  font-size: 1.1em;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.link {
+  width: 130px;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  color: wheat;
+  text-decoration: none;
+}
+
+.link:hover {
+  outline: 1px solid rgb(255, 254, 199);
+}
+
+.signin {
+  width: 70px;
+}
+
+.parameters {
+  width: 140px;
+}

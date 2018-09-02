@@ -1,0 +1,10 @@
+.intakename {
+  width: 180px;
+  cursor: pointer;
+}
+
+.foodintake td {
+  background: #333;
+  color: yellowgreen;
+  font-weight: 500;
+}

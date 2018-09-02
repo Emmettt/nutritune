@@ -1,0 +1,13 @@
+.dish td {
+  background: rgb(100, 100, 100);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.dishname {
+  cursor: pointer;
+}
+
+.editable {
+  cursor: pointer;
+}
